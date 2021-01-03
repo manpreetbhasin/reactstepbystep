@@ -6,6 +6,15 @@ class IndexPage extends React.Component {
     return <div>
 
       <h4>01/02/2021</h4>
+      Release Notes:
+      <ol>
+        <li>
+          Created react repo
+        </li>
+        <li>
+          Added components that has basic router.
+        </li>
+      </ol>
       <ul>
         <li>
             <pre>{`
