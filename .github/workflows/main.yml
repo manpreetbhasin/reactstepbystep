@@ -21,5 +21,6 @@ jobs:
             password: 'OKj541jY3j44Duk9mueH2'
             local_path: './build/*'
             remote_path: '/'
+            port: 21
             sftpArgs: '-o ConnectTimeout=5'
           
