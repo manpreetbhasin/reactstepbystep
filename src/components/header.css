@@ -1,0 +1,10 @@
+.pure-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pure-menu-item {
+    display: inline-block;
+    padding-right: 10px;
+}

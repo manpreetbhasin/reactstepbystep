@@ -1,8 +1,8 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Header from "./components/header";
-import ComponentB from "./subpages/ComponentB";
-import IndexPage from "./subpages/ComponentA"
+import Requirements from "./subpages/Requirements.js";
+import IndexPage from "./subpages/LogPage"
 
 export default function BasicRouter() {
   return (
@@ -13,8 +13,8 @@ export default function BasicRouter() {
         <Route exact path="/">
           <IndexPage/>
         </Route>
-        <Route path='/componentb'>
-          <ComponentB/>
+        <Route path='/requirements'>
+          <Requirements/>
         </Route>
       </Switch>
     </Router>

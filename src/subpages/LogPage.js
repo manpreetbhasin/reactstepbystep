@@ -1,12 +1,11 @@
 import React from 'react';
 import '../App.css';
 
-class IndexPage extends React.Component {
+class LogPage extends React.Component {
   render() {
     return <div>
-
-      <h4>01/02/2021</h4>
-      Release Notes:
+    <h3> Log Page</h3>
+      <b>01/02/2021</b>
       <ol>
         <li>
           Created react repo
@@ -14,9 +13,8 @@ class IndexPage extends React.Component {
         <li>
           Added components that has basic router.
         </li>
-      </ol>
-      <ul>
         <li>
+          npm stack
             <pre>{`
             "@testing-library/jest-dom": "^4.2.4",
             "@testing-library/react": "^9.3.2",
@@ -29,7 +27,10 @@ class IndexPage extends React.Component {
             "serve": "^11.3.0"
             `}</pre>
         </li>
-      </ul>
+      </ol>
+
+
+
 
 
     </div>
@@ -37,7 +38,7 @@ class IndexPage extends React.Component {
 
 }
 
-export default IndexPage;
+export default LogPage;
 
 
 
