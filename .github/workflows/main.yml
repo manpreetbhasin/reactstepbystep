@@ -19,5 +19,5 @@ jobs:
             username: '397enbn@397enbn.com'
             server: 'ftp.tugera.com'
             password: 'OKj541jY3j44Duk9mueH2'
-            local-dir: './build/*'
+            local-dir: './build/'
           
