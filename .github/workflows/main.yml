@@ -16,8 +16,8 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-            username: '397enbn@397enbn.com'
+            username: 'reactstepbystep@tugera.com'
             server: 'ftp.tugera.com'
-            password: 'OKj541jY3j44Duk9mueH2'
+            password: 'U73REkSqYGbgJ31B3JfZh'
             local-dir: './build/'
           
